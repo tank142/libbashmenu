@@ -1,0 +1,7 @@
+python3 create_experiment.py experiments/Petya data  configs/model2.config
+python3 create_experiment.py    configs
+
+python3 export_inference_graph.py experiments/my_cool_experiment/training/model.ckpt-36487.meta --cpu -o experiments/my_cool_experiment/training/exported_inference_graphs
+./run.sh experiments/testasdf sadf.ini
+python3 export_inference_graph.py experiments/my_cool_experiment/training/model.ckpt-36487.meta --cpu -o experiments/my_cool_experiment/training/exported_inference_graphs
+python3 export_inference_graph.py experiments/my_cool_experiment/training/model.ckpt-36487.meta -o experiments/my_cool_experiment/training/exported_inference_graphs
