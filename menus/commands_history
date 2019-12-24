@@ -5,3 +5,6 @@ python3 export_inference_graph.py experiments/my_cool_experiment/training/model.
 ./run.sh experiments/testasdf sadf.ini
 python3 export_inference_graph.py experiments/my_cool_experiment/training/model.ckpt-36487.meta --cpu -o experiments/my_cool_experiment/training/exported_inference_graphs
 python3 export_inference_graph.py experiments/my_cool_experiment/training/model.ckpt-36487.meta -o experiments/my_cool_experiment/training/exported_inference_graphs
+python3 export_inference_graph.py  --cpu -o /exported_inference_graphs
+python3 export_inference_graph.py  --cpu -o /exported_inference_graphs
+python3 export_inference_graph.py experiments/my_cool_experiment/training/model.ckpt-36487.meta -o experiments/my_cool_experiment/training/exported_inference_graphs

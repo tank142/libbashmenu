@@ -1,6 +1,6 @@
 #!/bin/bash
 source libbashmenu.sh
-export INTERFACE="Xdialog"
+export INTERFACE="dialog"
 export MENU=" export_graph.sh "
 WORKDIR "$1"
 FILE=`MENU FIND_OBJECT "Select checkpoint" "$MENU" "" ./experiments/my_cool_experiment/ '.ckpt-' '.meta'`; EXIT $?
